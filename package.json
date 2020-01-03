@@ -1,0 +1,43 @@
+{
+    "name": "fancy-weather",
+    "version": "1.0.0",
+    "description": "fancy-weather",
+    "private": true,
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "dotenv-webpack": "^1.7.0",
+        "express": "^4.17.1",
+        "mapbox-gl": "^1.6.1",
+        "node-fetch": "^2.6.0",
+        "opencage-api-client": "^0.5.1"
+    },
+    "devDependencies": {
+        "@types/mapbox-gl": "^1.6.1",
+        "css-loader": "^3.4.0",
+        "eslint": "^6.1.0",
+        "eslint-config-airbnb-base": "^14.0.0",
+        "eslint-plugin-import": "^2.18.2",
+        "style-loader": "^1.0.2",
+        "webpack": "^4.41.4",
+        "webpack-cli": "^3.3.10"
+    },
+    "scripts": {
+        "test": "test",
+        "lint": "eslint src/ --ext js",
+        "dev:server": "node src/server.js",
+        "build": "webpack"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rolling-scopes-school/daryaya-RS2019Q3.git"
+    },
+    "keywords": [
+        "fancy-weather"
+    ],
+    "author": "me",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/rolling-scopes-school/daryaya-RS2019Q3/issues"
+    },
+    "homepage": "https://github.com/rolling-scopes-school/daryaya-RS2019Q3#readme"
+}
